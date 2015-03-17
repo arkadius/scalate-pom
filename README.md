@@ -3,7 +3,7 @@ Scalate Maven POM
 
 Shared parent POM for Scalate Maven projects.
 
-######: Deployment notes:
+##### Deployment notes:
 The Maven `distributionManagement` element is defined for this (and all inheriting projects unless overridden) as:
 ```xml
   <distributionManagement>
