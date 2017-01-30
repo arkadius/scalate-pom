@@ -24,10 +24,10 @@
   <parent>
     <groupId>org.scalatra.scalate</groupId>
     <artifactId>scalate-pom</artifactId>
-    <version>1.7.1-SNAPSHOT</version>
+    <version>1.8.0</version>
   </parent>
 
-  <artifactId>scalate-maven-plugin_2.11</artifactId>
+  <artifactId>scalate-maven-plugin_2.12</artifactId>
   <packaging>maven-plugin</packaging>
 
   <name>Scalate Maven Plugin</name>
@@ -38,8 +38,8 @@
   </prerequisites>
 
   <properties>
-    <version.scala.binary>2.11</version.scala.binary>
-    <version.scala>${version.scala.binary}.5</version.scala>
+    <version.scala.binary>2.12</version.scala.binary>
+    <version.scala>${version.scala.binary}.1</version.scala>
     <version.maven>3.0.4</version.maven>
     <version.wagon>2.2</version.wagon>
   </properties>
